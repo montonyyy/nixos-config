@@ -1,0 +1,21 @@
+{
+	"layer": "top",
+	"position": "top",
+	"modules-right": ["network", "custom/sep", "pulseaudio", "custom/sep", "battery", "custom/sep", "clock"],
+	"battery": {
+		"format": "battery: {capacity}%"
+	},
+	"network": {
+		"format-wifi":"network: {essid}",
+		"format-disconnected": "disconnected"
+	},
+	"clock": {
+		"format": "{:%H:%M}"
+	},
+	"pulseaudio": {
+		"format": "volume: {volume}%"
+	},
+	"custom/sep": {
+		"format": "|"
+	}
+}

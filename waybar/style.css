@@ -1,0 +1,26 @@
+* 	{
+	font-family: "JetBrains Mono", monospace;
+	font-weight: 500;
+	font-size: 14px;
+	color: #c9b9ff;
+	background: rgba(40, 25, 70, 0.3);
+	border-radius: 6px;
+	padding: 2px 7px;
+	margin-left: 0px;
+	transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+#custom-sep:hover,
+#pulseaudio:hover,
+#battery:hover,
+#network:hover,
+#clock:hover {
+	background: rgba(70, 50, 130, 0.6);
+	opacity: 1;
+}
+
+waybar{
+	background: transparent;
+	box-shadow: none;
+	border: none;
+}
